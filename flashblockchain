@@ -1,0 +1,13 @@
+flash_blockchain/
+│── blockchain.py        # Core blockchain logic (blocks, PoW, mining)
+│── node.py              # Node API to handle transactions & networking
+│── miner.py             # Mining script for solving PoW
+│── wallet.py            # Wallet creation & key management
+│── transaction.py       # Handles transactions (signing, validation)
+│── server.py            # API for wallet, transactions, and blocks
+│── explorer.py          # Blockchain explorer API
+│── config.py            # Configuration settings (block time, difficulty)
+│── utils.py             # Utility functions (hashing, signing)
+│── requirements.txt     # Dependencies
+│── frontend/            # (React-based blockchain explorer UI)
+└── README.md            # Instructions
